@@ -1,12 +1,13 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from 'react';
+import List from './components/List';
 
-function App() {
+// import dataset from './dataset'
+
+export default function App() {
   return (
-    <div className="App">
-
+    <div>
+      <List></List>
+      
     </div>
-  );
+  )
 }
-
-export default App;
