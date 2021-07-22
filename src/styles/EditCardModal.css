@@ -1,0 +1,45 @@
+.Modal-Body {
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal-Form {
+  flex: 1;
+}
+
+.Modal-Actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Modal-Form-Section {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+.Edit-Card .Card {
+  min-height: 50px;
+  padding-left: 8px;
+  padding-right: 15px;
+}
+
+.Edit-Card .Card:hover {
+  background: white;
+}
+
+.Edit-Card-Textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 15px;
+}
